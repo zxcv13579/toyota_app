@@ -1,11 +1,4 @@
-import React, {useEffect} from 'react';
-// import {createNativeStackNavigator} from '@react-navigation/native-stack';
-// import DiscussScreenNavigation from './screens/DiscussNavigation/DiscussScreen';
-// // import HomeNestedTabScreen from './screens/DiscussNestedTabScreen';
-// import TabBackTitle from './components/TabBackTitle';
-// import PdfScreen from './screens/PdfScreen';
-// import AudioScreen from './screens/AduioScreen';
-// import WebviewScreen from './screens/WebviewScreen';
+import React from 'react';
 import DiscussIcon from 'src/images/root/discuss.svg';
 import CustomIcon from 'src/images/root/custom.svg';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';

@@ -3,6 +3,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import DiscussNavigation from 'src/screens/DiscussNavigation';
 import CustomerNavigation from 'src/screens/CustomerNavigation';
+import StudyNavigation from 'src/screens/StudyNavigaiton';
 
 const Tab = createBottomTabNavigator();
 
@@ -24,6 +25,7 @@ const RootNavigation = () => {
             const icons = {
               Discuss: 'briefcase',
               Customer: 'people',
+              Study: 'person',
             };
 
             return (
@@ -46,6 +48,13 @@ const RootNavigation = () => {
       <Tab.Screen
         name="Customer"
         component={CustomerNavigation}
+        options={{
+          title: '顧客經營',
+        }}
+      />
+      <Tab.Screen
+        name="Study"
+        component={StudyNavigation}
         options={{
           title: '顧客經營',
         }}

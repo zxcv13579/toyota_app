@@ -12,8 +12,8 @@ const StudyScreen = () => {
       rotateZ={-45}
       textColor={'rgba(255,255,255,.2)'}
       fontSize={24}>
-      <Box>
-        <Text>ssdf</Text>
+      <Box safeArea p={4}>
+        <Text color="amber.300">ssdf</Text>
       </Box>
     </WaterMark>
   );

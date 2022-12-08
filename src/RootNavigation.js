@@ -25,7 +25,7 @@ const RootNavigation = () => {
             const icons = {
               Discuss: 'briefcase',
               Customer: 'people',
-              Study: 'person',
+              Study: 'ios-book',
             };
 
             return (
